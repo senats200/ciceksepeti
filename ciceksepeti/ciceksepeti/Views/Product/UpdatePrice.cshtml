@@ -1,0 +1,50 @@
+﻿@model ciceksepeti.Models.UpdatedProductViewModel
+
+<h2>Ürün Fiyatını Güncelle</h2>
+
+<form asp-action="UpdatePrice" method="post">
+    <label for="Id">Ürün Seçin:</label>
+    <select id="Id" name="Id" asp-for="Id">
+        @foreach (var product in Model.Yields)
+        {
+            <option value="@product.ProductID">@product.Name - @product.Price</option>
+        }
+    </select>
+
+    <label for="NewPrice">Yeni Fiyat:</label>
+    <input type="number" step="0.01" id="NewPrice" name="NewPrice" asp-for="NewPrice" />
+
+    <button type="submit">Güncelle</button>
+</form>
+
+<h2 style="margin-top:20px;" > Güncellenen Ürünler</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Ürün Adı</th>
+            <th>Eski Fiyat</th>
+            <th>Yeni Fiyat</th>
+            <th>Güncellenme Tarihi</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var updatedProduct in Model.UpdatedProducts)
+        {
+            <tr>
+                <td>@updatedProduct.ProductName</td>
+                <td>@updatedProduct.OldPrice</td>
+                <td>@updatedProduct.NewPrice</td>
+                <td>@updatedProduct.UpdatedAt</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<style>
+     table {
+         margin-top:30px;
+     }
+
+
+
+
+</style>

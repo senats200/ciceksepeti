@@ -1,0 +1,149 @@
+﻿@model List<CartItem>
+
+<h2>Sepetim</h2>
+
+@if (Model.Count == 0)
+{
+    <div class="empty-cart-message">
+    <h3>Sepetinizde Ürün Bulunmamaktadır.</h3>
+    </div>
+       <div class="text-center ">
+        <a href="@Url.Action("Index", "Home")" class="btn my-btn-success"  style="background-color:#b5e8b9 ;">
+            Alışverişe Başlayın </a>
+            </div>
+}
+else
+{
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-12">
+                <div class="cart-item">
+                    <div class="cart-item-image">
+                        <img src="@item.ImageUrl" alt="@item.ProductName" />
+                    </div>
+                    <div class="cart-item-details">
+                        <h5 class="cart-item-title">@item.ProductName</h5>
+                        <p class="cart-item-price">@item.Price.ToString("C")</p>
+                        <p class="cart-item-quantity">Adet: @item.Quantity</p>
+                        <p class="cart-item-total">Toplam: @item.TotalPrice.ToString("C")</p>
+                        <form action="@Url.Action("RemoveFromCart", "Cart")" method="post">
+                            <input type="hidden" name="productId" value="@item.ProductId" />
+                            <button type="submit" class="remove-button">🗑️</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+    <div class="my-flex-container mt-3">
+        <form method="post" action="@Url.Action("ConfirmCart", "Cart")">
+            <button type="submit" class="btn" style="background-color:#b5e8b9" padding: 100px 200px; font-size: 50px;>Sepeti Onayla</button>
+        </form>
+    </div>
+}
+
+<!-- Toplam fiyatın sol alt köşede ve sadece sepet doluyken görünmesi -->
+@if (Model.Count > 0)
+{
+    <div class="total-price">
+        <h3>Toplam Fiyat: @ViewBag.TotalAmount.ToString("C")</h3>
+    </div>
+}
+
+
+<style>
+    /* Genel kart öğelerinin stili */
+    .cart-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid #ddd;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+    }
+
+    /* Ürün resminin görünümü */
+    .cart-item-image img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        position:relative;
+        border-radius: 5px;
+    }
+
+    /* Ürün bilgileri kısmı */
+    .cart-item-details {
+        flex-grow: 1;
+        margin-left: 20px;
+    }
+
+    .cart-item-title {
+        font-size: 18px;
+        font-weight: bold;
+        color: #333;
+    }
+
+    .cart-item-price,
+    .cart-item-quantity,
+    .cart-item-total {
+        font-size: 16px;
+        color: #555;
+    }
+
+    .empty-cart-message {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+        font-weight: bold;
+        color: black; 
+    }
+
+    /* Sepet toplam fiyatının stilini ayarlama */
+    .total-price {
+        position: fixed; /* Sayfa kaydırıldığında sabit kalır */
+        bottom: 40px; /* Sayfanın altına 20px mesafe bırakır */
+        left: 120px; /* Sayfanın soluna 20px mesafe bırakır */
+        background-color:white; /* Arka plan rengi beyaz */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+        font-weight: bold; /* Yazıyı kalın yapar */
+        color: black;/*Yazı rengini siyah yapar */
+    }
+
+    .text-center {
+        text-align: center; /* Butonun tam ortada görünmesini sağlar */
+    }
+
+    .my-btn-success {
+        margin-top: 90px; /* Butonun yazının altında olmasını sağlar */
+        color: black; /* Buton yazı rengini siyah yapar */
+        padding: 15px 30px;
+
+    }
+
+    .my-flex-container {
+        position: fixed;
+        bottom: 30px;
+        right: 120px;
+        z-index-:10;/*diğer ögelerin üzerinde görünmesini sağlar*/
+    }
+
+    .remove-button {
+        background-color: transparent;
+        border: none;
+        margin-left: auto; 
+        margin-right: 10px;
+        cursor: pointer;
+        font-size: 20px;
+        color: grey
+    }
+
+        .remove-button:hover {
+            color: darkgrey
+        }
+
+ 

@@ -1,0 +1,50 @@
+﻿@page
+
+
+    <div class="success-payment-message">
+        <h3>Ödemeniz Başarıyla Gerçekleşmiştir.</h3>
+        <h3>Bizi Tercih Ettiğiniz İçin Teşekkür Ederiz.</h3>
+
+    </div>
+    <div class="text-center ">
+        <a href="@Url.Action("Index", "Home")" class="btn successful-payment-btn" style="background-color:#b5e8b9 ;">
+            Alışverişe Devam Edin
+        </a>
+    </div>
+
+
+
+
+<style>
+  
+
+    
+
+    .success-payment-message {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+        font-weight: bold;
+        color: black;
+    }
+
+   
+    .text-center {
+        text-align: center; /* Butonun tam ortada görünmesini sağlar */
+    }
+
+    .successful-payment-btn {
+        margin-top: 90px; /* Butonun yazının altında olmasını sağlar */
+        color: black; /* Buton yazı rengini siyah yapar */
+        padding: 15px 30px;
+    }
+
+    .my-flex-container {
+        position: fixed;
+        bottom: 30px;
+        right: 120px;
+        z-index-: 10; /*diğer ögelerin üzerinde görünmesini sağlar*/
+    }
+</style>

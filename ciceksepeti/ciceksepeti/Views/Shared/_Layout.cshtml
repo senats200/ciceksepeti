@@ -1,0 +1,259 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Çiçeksepeti</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+    <style>
+        /* Navbar */
+        .navbar {
+            background-color: #b5e8b9;
+            border-bottom: 1px solid #e0e0e0; /* İnce alt çizgi */
+        }
+
+        .navbar-brand {
+            font-size: 24px;
+            font-weight: bold;
+            color: #0b075e; 
+        }
+
+        .navbar-nav .nav-link {
+            font-size: 16px;
+            color: #555; /* Koyu gri */
+        }
+
+
+
+        /* Hero Section */
+        .hero-section {
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+            .hero-section h1 {
+                font-size: 48px;
+                font-weight: bold;
+            }
+
+       
+
+            .slider-container
+
+        {
+            position: relative;
+            width: 100%; /* Kaydırıcı genişliği, ihtiyacınıza göre değiştirebilirsiniz */
+            margin: auto;
+            overflow: hidden; /* Kaydırıcıyı gizler, taşan öğeleri dışarıda bırakır */
+            justify-content:center;
+        }
+      
+
+        /* Kaydırıcıyı içine alan konteyner */
+        .slider-wrapper {
+            display: flex;
+            transition: transform 0.5s ease-in-out; /* Kaydırma animasyonu */
+            justify-content:center
+           
+        }
+
+        .slider-item {
+            margin: 20px; /* Öğeler arasındaki boşluğu artırır */
+        }
+
+         
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/">Çiçeksepeti</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Home/Çiçek">Çiçek</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Home/Hediye">Hediye & Ekstra</a>
+                        </li>
+                        
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Home/Kurumsal">Kurumsal</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Home/Yardım">Yardım</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row mb-3">
+                <div class="col-md-8">
+                    <!-- Arama Çubuğu -->
+                    <form action="/Search/Search" method="get" class="d-flex justify-content-center" style=" margin-top: 40px;">
+                        <input class="form-control me-2" type="text" name="query"placeholder="Marka,ürün ve kategori ara" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit" >Ara</button>
+                      
+                    </form>
+                </div>
+                <div class="col-md-4 text-end" style=" margin-top: 40px;">
+                    
+                    <div class="dropdown">
+                        
+                            <a href="@Url.Action("Index", "Cart")" class="btn btn-success">
+                                Sepetim 
+                            </a>
+                       
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <!-- Giriş yapmış kullanıcı için menüler -->
+
+                            <button class="btn btn-light" type="button" data-bs-toggle="collapse" aria-expanded="false" onclick="window.location.href='@Url.Action("Favorites", "Cart")'">Favorilerim</button>
+                            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">Hesabım</button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                @if (User.IsInRole("Admin"))
+                                {
+                                    <!-- Admin için menüler -->
+                                    <li><a asp-controller="Sales" asp-action="GetUsers" class="dropdown-item" style="background-color:white">Kullanıcılar</a></li>
+                                    <li><a asp-controller="Sales" asp-action="SalesReport" class="dropdown-item" style="background-color:white">Satışlar</a></li>
+                                    <li><a asp-controller="Product" asp-action="UpdatePrice" class="dropdown-item" style="background-color:white">Ürün Yönetimi</a></li>
+                                    <li><a asp-controller="Product" asp-action="SalesSummary" class="dropdown-item" style="background-color:white">Ürün Satış Özeti</a></li>
+                                    <li><a asp-controller="Sales" asp-action="WeeklySalesReport" class="dropdown-item" style="background-color:white">Gelir Takibi</a></li>
+                                    <li><a asp-controller="Account" asp-action="Logout" class="dropdown-item" style="background-color:white">Çıkış</a></li>
+
+                                }
+                                else
+                                {
+                                    
+                             <li><a asp-controller="Cart" asp-action="Favorites" class=" dropdown-item" style="background-color:white">Favorilerim</a></li>
+                            <li><a asp-controller="Cart" asp-action="Index"class=" dropdown-item" style="background-color:white">Sepetim</a></li>
+                            <li><a asp-controller="Order" asp-action="UserOrders" class=" dropdown-item" style="background-color:white">Siparişlerim</a></li>
+                            <li><a asp-controller="CreditCard" asp-action="CreditCardInfo" class=" dropdown-item" style="background-color:white">Kart Bilgilerim</a></li>
+                            <li><a asp-controller="User"  asp-action="UserInfo"class="dropdown-item" style="background-color:white">Üyelik Bilgilerim</a></li>
+                            <li><a  asp-controller="Account" asp-action="Logout" class="dropdown-item" style="background-color:white">Çıkış Yap</a></li>
+
+                             }
+                            </ul>
+                               
+                        }
+                        else
+                        {
+                            <!-- Giriş yapmamış kullanıcı için menüler -->
+                            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">Üyelik</button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <li><a asp-controller="Account" asp-action="Login" class="dropdown-item" style="background-color:#b5e8b9">Giriş Yap</a></li>
+                                <li><a asp-controller="Account" asp-action="Register" class="dropdown-item" style="background-color:white">Üye Ol</a></li>
+                            </ul>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <button class="btn btn-light " type="button" data-bs-toggle="collapse" aria-expanded="false">Yılbaşı</button>
+            <button class="btn btn-light " type="button" data-bs-toggle="collapse" aria-expanded="false">Çiçek</button>
+            <button class="btn btn-light " type="button" data-bs-toggle="collapse" aria-expanded="false">Yenilebilir Çiçek</button>
+            <button class="btn btn-light " type="button" data-bs-toggle="collapse" aria-expanded="false">Gurme Lezzetler</button>
+            <button class="btn btn-light " type="button" data-bs-toggle="collapse" aria-expanded="false">Doğum Günü</button>
+            <button class="btn btn-light " type="button" data-bs-toggle="collapse" aria-expanded="false">Gönderim Amacı</button>
+            <button class="btn btn-light " type="button" data-bs-toggle="collapse" aria-expanded="false">Orkide/Saksı çiçekleri</button>
+            <button class="btn btn-light " type="button" data-bs-toggle="collapse" aria-expanded="false">Hediye</button>
+            <button class="btn btn-light " type="button" data-bs-toggle="collapse" aria-expanded="false">Kişiye Özel</button>
+            <button class="btn btn-light " type="button" data-bs-toggle="collapse" aria-expanded="false">Hediye Setleri</button>
+
+        </div>
+
+
+        <div  class="slider-container">
+              
+            <div class="carousel-inner">
+                <div class="slider-wrapper">
+
+                    <div class="slider-item">
+
+                    <figure class="text-center">
+                        <a href="@Url.Action("Kokina", "Home")">
+                        <img src="~/images/Kokina-tur.png" class="img-fluid" alt="görsel 1">
+                        </a>
+                        <figcaption>Kokina</figcaption>
+                    </figure>
+                    </div>
+
+
+                   <div class="slider-item">
+                        <figure class="text-center">
+                        <a href="@Url.Action("DogumGunuCicekleri", "Home")">
+                        <img src="~/images/Do-um-G-n-i-ekleri-tur.png" class="img-fluid" alt="görsel 4">
+                        </a>
+                        <figcaption>Doğum Günü Çiçekleri</figcaption>
+                        
+                   </figure>
+                    </div>
+
+                   <div class="slider-item">
+                        <figure class="text-center">
+                        <a href="@Url.Action("Saksicicekleri", "Home")">
+                        <img src="~/images/Saks-i-ekleri-tur.png" class="img-fluid"  alt="görsel 5">
+                        </a>
+                        <figcaption> Saksı Çiçekleri</figcaption>
+                        
+                   </figure>
+                   </div>
+
+                     <div class="slider-item">
+                         <figure class="text-center">
+                         <a href="@Url.Action("YildonumuCicekleri", "Home")">
+                         <img src="~/images/Y-ld-n-m-i-ekleri-tur.png" class="img-fluid" alt="görsel 9">
+                          </a>
+                         <figcaption> Yıldönümü Çiçekleri</figcaption>
+
+                     </figure>
+                     </div>
+
+                </div>
+                        
+            </div>
+        </div>
+             
+                
+           
+        
+        
+    </header>
+
+
+    <!-- Ana İçerik -->
+    <div class="container mt-5">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="text-center">
+        <div class="container">
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

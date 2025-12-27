@@ -1,0 +1,135 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ciceksepeti
+build_property.RootNamespace = ciceksepeti
+build_property.ProjectDir = C:\Users\Seda Sena\Desktop\210709023_SenanurTaş\ciceksepeti\ciceksepeti\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Seda Sena\Desktop\210709023_SenanurTaş\ciceksepeti\ciceksepeti
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Seda Sena/Desktop/210709023_SenanurTaş/ciceksepeti/ciceksepeti/Views/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Seda Sena/Desktop/210709023_SenanurTaş/ciceksepeti/ciceksepeti/Views/Cart/CardInformation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxDYXJkSW5mb3JtYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Seda Sena/Desktop/210709023_SenanurTaş/ciceksepeti/ciceksepeti/Views/Cart/Favorites.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxGYXZvcml0ZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Seda Sena/Desktop/210709023_SenanurTaş/ciceksepeti/ciceksepeti/Views/Cart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Seda Sena/Desktop/210709023_SenanurTaş/ciceksepeti/ciceksepeti/Views/Cart/Payment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxQYXltZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Seda Sena/Desktop/210709023_SenanurTaş/ciceksepeti/ciceksepeti/Views/Cart/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxTdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Seda Sena/Desktop/210709023_SenanurTaş/ciceksepeti/ciceksepeti/Views/CreditCard/CreditCardInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlZGl0Q2FyZFxDcmVkaXRDYXJkSW5mby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Seda Sena/Desktop/210709023_SenanurTaş/ciceksepeti/ciceksepeti/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Seda Sena/Desktop/210709023_SenanurTaş/ciceksepeti/ciceksepeti/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Seda Sena/Desktop/210709023_SenanurTaş/ciceksepeti/ciceksepeti/Views/Order/UserOrders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcVXNlck9yZGVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Seda Sena/Desktop/210709023_SenanurTaş/ciceksepeti/ciceksepeti/Views/Product/SalesSummary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxTYWxlc1N1bW1hcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Seda Sena/Desktop/210709023_SenanurTaş/ciceksepeti/ciceksepeti/Views/Product/UpdatePrice.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxVcGRhdGVQcmljZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Seda Sena/Desktop/210709023_SenanurTaş/ciceksepeti/ciceksepeti/Views/Sales/GetUsers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZXNcR2V0VXNlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Seda Sena/Desktop/210709023_SenanurTaş/ciceksepeti/ciceksepeti/Views/Sales/SalesReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZXNcU2FsZXNSZXBvcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Seda Sena/Desktop/210709023_SenanurTaş/ciceksepeti/ciceksepeti/Views/Sales/WeeklySalesReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZXNcV2Vla2x5U2FsZXNSZXBvcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Seda Sena/Desktop/210709023_SenanurTaş/ciceksepeti/ciceksepeti/Views/Search/SearchResults.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhcmNoXFNlYXJjaFJlc3VsdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Seda Sena/Desktop/210709023_SenanurTaş/ciceksepeti/ciceksepeti/Views/Shared/DogumGunuCicekleri.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXERvZ3VtR3VudUNpY2VrbGVyaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Seda Sena/Desktop/210709023_SenanurTaş/ciceksepeti/ciceksepeti/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Seda Sena/Desktop/210709023_SenanurTaş/ciceksepeti/ciceksepeti/Views/Shared/Kokina.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEtva2luYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Seda Sena/Desktop/210709023_SenanurTaş/ciceksepeti/ciceksepeti/Views/Shared/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Seda Sena/Desktop/210709023_SenanurTaş/ciceksepeti/ciceksepeti/Views/Shared/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFJlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Seda Sena/Desktop/210709023_SenanurTaş/ciceksepeti/ciceksepeti/Views/Shared/Saksicicekleri.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFNha3NpY2ljZWtsZXJpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Seda Sena/Desktop/210709023_SenanurTaş/ciceksepeti/ciceksepeti/Views/Shared/YilDonumuCicekleri.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFlpbERvbnVtdUNpY2VrbGVyaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Seda Sena/Desktop/210709023_SenanurTaş/ciceksepeti/ciceksepeti/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Seda Sena/Desktop/210709023_SenanurTaş/ciceksepeti/ciceksepeti/Views/User/UserInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVc2VySW5mby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Seda Sena/Desktop/210709023_SenanurTaş/ciceksepeti/ciceksepeti/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Seda Sena/Desktop/210709023_SenanurTaş/ciceksepeti/ciceksepeti/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

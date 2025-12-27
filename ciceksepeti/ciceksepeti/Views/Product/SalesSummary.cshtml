@@ -1,0 +1,23 @@
+﻿@model IEnumerable<ProductSalesSummary>
+
+<h2>Ürün Satış Özeti</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Ürün Adı</th>
+            <th>Toplam Satılan Miktar</th>
+            <th>Toplam Satış Geliri</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.TotalQuantitySold</td>
+                <td>@item.TotalSales.ToString("C")</td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,541 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\-ok-Satanlar-tur.png",
+      "PackagePath": "staticwebassets\\images\\-ok-Satanlar-tur.png"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\-z-r-i-ekleri-tur.png",
+      "PackagePath": "staticwebassets\\images\\-z-r-i-ekleri-tur.png"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\400-TL-Alti-Cicekler-tur.jpg",
+      "PackagePath": "staticwebassets\\images\\400-TL-Alti-Cicekler-tur.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\Ayn-G-n-Hediye-Seti-tur.jpg",
+      "PackagePath": "staticwebassets\\images\\Ayn-G-n-Hediye-Seti-tur.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\Cicek-Aranjmanlari-tur.jpg",
+      "PackagePath": "staticwebassets\\images\\Cicek-Aranjmanlari-tur.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\Cicek-Buketleri-tur.jpg",
+      "PackagePath": "staticwebassets\\images\\Cicek-Buketleri-tur.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\Cicek-Cikolata-Hediye-Setleri-tur.jpg",
+      "PackagePath": "staticwebassets\\images\\Cicek-Cikolata-Hediye-Setleri-tur.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\Cok-Satanlar-Cicek-Bonnyfood-tur.jpg",
+      "PackagePath": "staticwebassets\\images\\Cok-Satanlar-Cicek-Bonnyfood-tur.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\Do-um-G-n-Lezzetleri-tur.png",
+      "PackagePath": "staticwebassets\\images\\Do-um-G-n-Lezzetleri-tur.png"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\Do-um-G-n-i-ekleri-tur.png",
+      "PackagePath": "staticwebassets\\images\\Do-um-G-n-i-ekleri-tur.png"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\Dogum-Gunu-Cicekleri-tur.jpg",
+      "PackagePath": "staticwebassets\\images\\Dogum-Gunu-Cicekleri-tur.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\En-Lezzetli-Yenilebilir-Cicekler-tur.jpg",
+      "PackagePath": "staticwebassets\\images\\En-Lezzetli-Yenilebilir-Cicekler-tur.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\Gecmis-Olsun-Cicekleri-tur.jpg",
+      "PackagePath": "staticwebassets\\images\\Gecmis-Olsun-Cicekleri-tur.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\Gurme-Lezzetler-tur.jpg",
+      "PackagePath": "staticwebassets\\images\\Gurme-Lezzetler-tur.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\Gurme-Lezzetler-tur.png",
+      "PackagePath": "staticwebassets\\images\\Gurme-Lezzetler-tur.png"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\Hediye-Setleri-tur.jpg",
+      "PackagePath": "staticwebassets\\images\\Hediye-Setleri-tur.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\Kirmizi-Guller-tur.jpg",
+      "PackagePath": "staticwebassets\\images\\Kirmizi-Guller-tur.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\Kokina-tur.png",
+      "PackagePath": "staticwebassets\\images\\Kokina-tur.png"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\Orkide-Cesitleri-tur.jpg",
+      "PackagePath": "staticwebassets\\images\\Orkide-Cesitleri-tur.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\Papatya-tur.jpg",
+      "PackagePath": "staticwebassets\\images\\Papatya-tur.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\Premium-Cicekler-tur.jpg",
+      "PackagePath": "staticwebassets\\images\\Premium-Cicekler-tur.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\Saks-i-ekleri-tur.png",
+      "PackagePath": "staticwebassets\\images\\Saks-i-ekleri-tur.png"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\Saksi-Cicekleri-tur.jpg",
+      "PackagePath": "staticwebassets\\images\\Saksi-Cicekleri-tur.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\Sevgiliye-Ozel-tur.jpg",
+      "PackagePath": "staticwebassets\\images\\Sevgiliye-Ozel-tur.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\Sevgiliye-i-ekler-tur.png",
+      "PackagePath": "staticwebassets\\images\\Sevgiliye-i-ekler-tur.png"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\Tasar-m-Taze-i-ekler-tur.png",
+      "PackagePath": "staticwebassets\\images\\Tasar-m-Taze-i-ekler-tur.png"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\Teraryum-tur.jpeg",
+      "PackagePath": "staticwebassets\\images\\Teraryum-tur.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\Y-ld-n-m-i-ekleri-tur.png",
+      "PackagePath": "staticwebassets\\images\\Y-ld-n-m-i-ekleri-tur.png"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\Yeni-Is-Cicekleri-tur.jpg",
+      "PackagePath": "staticwebassets\\images\\Yeni-Is-Cicekleri-tur.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\Yenilebilir-i-ekler-tur.png",
+      "PackagePath": "staticwebassets\\images\\Yenilebilir-i-ekler-tur.png"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\doğum\\b1.jpg",
+      "PackagePath": "staticwebassets\\images\\doğum\\b1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\doğum\\b10.jpg",
+      "PackagePath": "staticwebassets\\images\\doğum\\b10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\doğum\\b2.jpg",
+      "PackagePath": "staticwebassets\\images\\doğum\\b2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\doğum\\b3.jpg",
+      "PackagePath": "staticwebassets\\images\\doğum\\b3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\doğum\\b4.jpg",
+      "PackagePath": "staticwebassets\\images\\doğum\\b4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\doğum\\b5.jpg",
+      "PackagePath": "staticwebassets\\images\\doğum\\b5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\doğum\\b6.jpg",
+      "PackagePath": "staticwebassets\\images\\doğum\\b6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\doğum\\b7.jpg",
+      "PackagePath": "staticwebassets\\images\\doğum\\b7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\doğum\\b8.jpg",
+      "PackagePath": "staticwebassets\\images\\doğum\\b8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\doğum\\b9.jpg",
+      "PackagePath": "staticwebassets\\images\\doğum\\b9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\kokina\\a.jpg",
+      "PackagePath": "staticwebassets\\images\\kokina\\a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\kokina\\b.jpg",
+      "PackagePath": "staticwebassets\\images\\kokina\\b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\kokina\\c.jpg",
+      "PackagePath": "staticwebassets\\images\\kokina\\c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\kokina\\d.jpg",
+      "PackagePath": "staticwebassets\\images\\kokina\\d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\kokina\\e.jpg",
+      "PackagePath": "staticwebassets\\images\\kokina\\e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\kokina\\f.jpg",
+      "PackagePath": "staticwebassets\\images\\kokina\\f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\kokina\\g.jpg",
+      "PackagePath": "staticwebassets\\images\\kokina\\g.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\kokina\\h.jpg",
+      "PackagePath": "staticwebassets\\images\\kokina\\h.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\kokina\\ç.jpg",
+      "PackagePath": "staticwebassets\\images\\kokina\\ç.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\kokina\\ğ.jpg",
+      "PackagePath": "staticwebassets\\images\\kokina\\ğ.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\saksı\\a1.jpg",
+      "PackagePath": "staticwebassets\\images\\saksı\\a1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\saksı\\a10.jpg",
+      "PackagePath": "staticwebassets\\images\\saksı\\a10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\saksı\\a2.jpg",
+      "PackagePath": "staticwebassets\\images\\saksı\\a2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\saksı\\a3.jpg",
+      "PackagePath": "staticwebassets\\images\\saksı\\a3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\saksı\\a4.jpg",
+      "PackagePath": "staticwebassets\\images\\saksı\\a4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\saksı\\a5.jpg",
+      "PackagePath": "staticwebassets\\images\\saksı\\a5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\saksı\\a6.jpg",
+      "PackagePath": "staticwebassets\\images\\saksı\\a6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\saksı\\a7.jpg",
+      "PackagePath": "staticwebassets\\images\\saksı\\a7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\saksı\\a8.jpg",
+      "PackagePath": "staticwebassets\\images\\saksı\\a8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\saksı\\a9.jpg",
+      "PackagePath": "staticwebassets\\images\\saksı\\a9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\yıl\\c1.jpg",
+      "PackagePath": "staticwebassets\\images\\yıl\\c1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\yıl\\c10.jpg",
+      "PackagePath": "staticwebassets\\images\\yıl\\c10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\yıl\\c2.jpg",
+      "PackagePath": "staticwebassets\\images\\yıl\\c2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\yıl\\c3.jpg",
+      "PackagePath": "staticwebassets\\images\\yıl\\c3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\yıl\\c4.jpg",
+      "PackagePath": "staticwebassets\\images\\yıl\\c4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\yıl\\c5.jpg",
+      "PackagePath": "staticwebassets\\images\\yıl\\c5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\yıl\\c6.jpg",
+      "PackagePath": "staticwebassets\\images\\yıl\\c6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\yıl\\c7.jpg",
+      "PackagePath": "staticwebassets\\images\\yıl\\c7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\yıl\\c8.jpg",
+      "PackagePath": "staticwebassets\\images\\yıl\\c8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\images\\yıl\\c9.jpg",
+      "PackagePath": "staticwebassets\\images\\yıl\\c9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Seda Sena\\Desktop\\210709023_SenanurTaş\\ciceksepeti\\ciceksepeti\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ciceksepeti.props",
+      "PackagePath": "build\\ciceksepeti.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ciceksepeti.props",
+      "PackagePath": "buildMultiTargeting\\ciceksepeti.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ciceksepeti.props",
+      "PackagePath": "buildTransitive\\ciceksepeti.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ciceksepeti.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,32 @@
+﻿@model List<AllSales>
+
+<div class="container">
+    <h2>Satış Raporu</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Sipariş ID</th>
+                <th>Kullanıcı Adı</th>
+                <th>Ürün Adı</th>
+                <th>Miktar</th>
+                <th>Toplam Tutar</th>
+                <th>Sipariş Tarihi</th>
+                <th>Durum</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var sale in Model)
+            {
+                <tr>
+                    <td>@sale.OrderId</td>
+                    <td>@sale.UserName</td> <!-- Kullanıcı adı gösterimi -->
+                    <td>@sale.ProductName</td>
+                    <td>@sale.Quantity</td>
+                    <td>@sale.TotalPrice</td>
+                    <td>@sale.OrderDate</td>
+                    <td>@sale.OrderStatus</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

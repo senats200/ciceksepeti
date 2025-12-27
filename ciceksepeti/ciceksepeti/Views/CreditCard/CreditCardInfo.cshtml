@@ -1,0 +1,40 @@
+﻿@model List<ciceksepeti.Models.CreditCardInfo>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kart Bilgilerim</title>
+</head>
+<body>
+    
+@if (Model != null && Model.Any())
+{
+<table class="table">
+    <thead>
+        <tr>
+            <th>Kart Numarası  </th>
+            <th>Ay</th>
+            <th>Yıl</th>
+            <th>CVV</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var card in Model)
+        {
+            <tr>
+                <td>@card.CardNumber</td>
+                <td>@card.Month</td>
+                <td>@card.Year</td>
+                <td>@card.CVV</td>
+            </tr>
+        }
+    </tbody>
+</table>
+}
+else
+{
+    <p>Henüz Kart Bilgileriniz Girilmemiş.</p>
+}
+
+</body>
+</html>

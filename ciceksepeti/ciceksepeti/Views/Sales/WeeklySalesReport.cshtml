@@ -1,0 +1,48 @@
+﻿@model IEnumerable<ciceksepeti.Models.WeeklySales>
+@if (Model == null || !Model.Any())
+{
+    <p>Veri bulunamadı.</p>
+}
+else
+{
+   <div class="container">
+    <h2>Haftalık Gelirler</h2>
+    <table class="table">
+        <thead>
+            <tr>
+            <th>Haftanın Başlangıcı</th>
+            <th>Haftanın Sonu</th>
+            <th>Toplam Satış</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var sale in Model)
+        {
+            <tr>
+                <td>@sale.WeekStartDate.ToShortDateString()</td>
+                <td>@sale.WeekEndDate.ToShortDateString()</td>
+                 <td>@(sale.TotalSales.HasValue ? sale.TotalSales.Value.ToString("0.00") : "Veri yok")</td>
+             </tr>
+        }
+              
+    </tbody>
+</table>
+        <h4 class="@ViewBag.ProfitClass">
+            Toplam Kâr Farkı: @ViewBag.TotalProfit
+        </h4>
+    </div>
+}
+
+<style>
+    .text-success {
+        color: green;
+    }
+
+    .text-danger {
+        color: red;
+    }
+
+    .text-primary {
+        color: blue;
+    }
+</style>

@@ -1,0 +1,60 @@
+﻿@model List<Product>
+
+
+<h2>Kokina Çiçekleri</h2>
+@if (TempData["CartMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["CartMessage"]
+    </div>
+}
+@if (TempData["FavoriteMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["FavoriteMessage"]
+    </div>
+}
+<div class="row">
+    @foreach (var product in Model)
+    {
+        <div class="col-md-4">
+            <div class="card">
+                <img src="@product.ImageUrl" class="card-img-top" alt="@product.Name" />
+                <div class="card-body">
+                    <h5 class="card-title">@product.Name</h5>
+                    <p class="card-text">@product.Price.ToString("C")</p>
+                  <div class="d-flex justify-content-between">
+
+                    @if (ViewBag.Favorites != null && ViewBag.Favorites.Contains(product.ProductID))
+                    {
+                        <form asp-controller="Cart" asp-action="RemoveFromFavorites" method="post">
+                            <input type="hidden" name="productId" value="@product.ProductID" />
+                            <button type="submit" class="btn btn-danger">Favorilerden Çıkar</button>
+                        </form>
+                    }
+                    else
+                    {
+                        <form asp-controller="Cart" asp-action="AddToFavorites" method="post">
+                            <input type="hidden" name="productId" value="@product.ProductID" />
+                            <input type="hidden" name="productName" value="@product.Name" />
+                            <input type="hidden" name="price" value="@product.Price" />
+                            <input type="hidden" name="imageUrl" value="@product.ImageUrl" />
+                            <button type="submit" class="btn btn-success">Favorilere Ekle</button>
+                        </form>
+                    }
+                    <form asp-controller="Cart" asp-action="AddToCart" method="post">
+                        <input type="hidden" name="productId" value="@product.ProductID" />
+                        <input type="hidden" name="productName" value="@product.Name" />
+                        <input type="hidden" name="price" value="@product.Price" />
+                        <input type="hidden" name="imageUrl" value="@product.ImageUrl" />
+                        <button type="submit" style="background-color:#b5e8b9" class="btn ">Sepete Ekle</button>
+                    </form>
+                   
+
+                </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+<script>

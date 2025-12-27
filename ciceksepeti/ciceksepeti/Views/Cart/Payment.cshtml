@@ -1,0 +1,222 @@
+﻿@model ciceksepeti.Models.PaymentViewModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-content">
+            <h2>ÇiçekSepeti</h2>
+
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="payment-form">
+        <form method="post" action="@Url.Action("SavePersonalInfo","Cart")">
+            <div class="form-content">
+                <!-- Sol Kısım (Kullanıcı Bilgileri) -->
+                <div class="user-info">
+                    <h2>Kullanıcı Bilgileri</h2>
+                    <label for="UserName">Ad Soyad</label>
+                    <input type="text" id="UserName" name="UserName" placeholder="Adınızı ve soyadınızı girin" required>
+                    <label for="UserPhone">Telefon Numarası</label>
+                    <input type="tel" id="UserPhone" name="UserPhone" placeholder="Telefon numaranızı girin" required>
+                </div>
+
+                <!-- Sağ Kısım (Adres Bilgileri) -->
+                <div class="address-info">
+                    <h2>Adres Bilgileri</h2>
+                    <label for="City">Şehir</label>
+                    <input type="text" id="City" name="City" placeholder="Şehrinizi Giriniz" required>
+
+                    <label for="District">İlçe</label>
+                    <input type="text" id="District" name="District" placeholder="İlçenizi Giriniz" required>
+
+                    <label for="Neighborhood">Mahalle</label>
+                    <input type="text" id="Neighborhood" name="Neighborhood" placeholder="Mahallenizi Giriniz" required>
+
+                    
+                    <label for="Address">Adres</label>
+                    <textarea id="Address" name="Address" placeholder="Adresinizi girin" required></textarea>
+                </div>
+            </div>
+            <div class=" button-container">
+                <form action="Cart/Index" method="get">
+                    <button type="button" class="my-submit-btn" onclick="window.location.href='/Cart/Index'">Geri</button>
+                </form>
+                    <button type="submit" class="submit-btn">İleri</button>
+              
+            </div>
+
+
+        </form>
+   </div>
+   
+   
+  
+
+</body>
+</html>
+<style>
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+    .navbar {
+        background-color: white;
+        padding: 20px 0;
+        text-align: center;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1000; /* NavBar'ı üstte tutar */
+    }
+    .navbar h2{
+       font-size: 30px;
+       color: #0b075e;
+       margin:0;
+    }
+
+.payment-container {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.payment-form {
+    width: 70%;
+    max-width: 900px;
+    background-color: #fff;
+    justify-content:center;
+    align-items:center;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    margin-top:120px;
+}
+
+.payment-form .form-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.payment-form .user-info,
+.payment-form .address-info {
+    width: 48%;
+}
+
+.payment-form h2 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.payment-form label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.payment-form input,
+.payment-form textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+    .button-container {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 20px; /* Butonlarla form arasına boşluk */
+    }
+ .payment-form button.my-submit-btn {
+    width: 30%;
+    padding: 15px;
+    justify-content: flex-start;
+    background-color: #b5e8b9;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+ }
+
+.payment-form button.submit-btn {
+    width: 30%;
+    padding: 15px;
+    justify-content:flex-end;
+    background-color: #b5e8b9;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+.payment-form textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+/* Çerçeve ve içeriğin düzeni */
+.payment-form .form-content {
+    display: flex;
+    justify-content:space-between;
+    gap: 30px; /* Sol ve sağ alan arasında boşluk */
+}
+
+.payment-form .user-info, 
+.payment-form .address-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.payment-form .user-info input, 
+.payment-form .address-info input, 
+.payment-form .address-info textarea {
+    margin-bottom: 10px;
+}
+
+.payment-form .user-info,
+.payment-form .address-info {
+    width: 48%;
+}
+
+
+
+</style>

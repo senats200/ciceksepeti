@@ -1,0 +1,42 @@
+﻿@model LoginViewModel
+<div class="container mt-5">
+    <div class="card p-4 shadow-lg">
+
+         <h2 class="text-center">Giriş Yap</h2>
+        <form asp-action="Login" method="post" class="form-group">
+    
+    <!-- E-posta Alanı -->
+    <div class="mb-3" >
+        <label for="Email" class="form-label">E-posta</label>
+        <input asp-for="Email" type="email" class="form-control" placeholder="E-posta adresinizi girin" required />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <!-- Şifre Alanı -->
+    <div class="mb-3" >
+        <label for="Password" class="form-label">Şifre</label>
+            <input asp-for="Password" type="password" class="form-control" placeholder="Şifrenizi girin" required />
+            <span asp-validation-for="Password" class="text-danger"></span>
+        </div>
+
+    <!-- Şifremi Unuttum -->
+    <div class="mb-3 text-end">
+        <a href="/Account/ResetPassword">Şifremi unuttum?</a>
+    </div>
+
+    <!-- Giriş Yap Butonu -->
+    <button type="submit" value="Login"class="btn btn-primary ">Giriş Yap</button>
+    <button name="isAdmin"type="submit" value="true" style="background-color:#b5e8b9"  class="btn  ">Admin Girişi</button>
+
+
+</form>
+
+<!-- Kayıt Ol Linki -->
+<p class="text-center mt-3">
+    Hesabınız yok mu? <a href="/Account/Register">Kaydolun.</a>
+</p>
+</div>
+</div>
+
+
+
